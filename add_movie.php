@@ -1,6 +1,5 @@
 <!--
-   ViewIT Website
-   Author: Chan Wai Pong James		
+   ViewIT Website	
    Date:   2019 - 11 - 20
    
    Filename: add_movie.php

@@ -1,12 +1,11 @@
 ______________________________
 
- DIT4202 Assignment
  ViewIT movie rating website
 ___________________________________________________________________________________________________________________________
 
 readme.txt
 
-ViewIT website develop by Chan Wai Pong James 180609303
+ViewIT website develop by James Chan
 
 This readne file contains how to start to use this website.
 ___________________________________________________________________________________________________________________________
@@ -31,7 +30,6 @@ The files should be contain:
  16. search
  17. login.php
 
- *any problem of the website or missing any files or source code, please feel free to contact me
 ___________________________________________________________________________________________________________________________
 
 Start to explore this website: localhost/php/index.php
@@ -119,7 +117,7 @@ ________________________________________________________________________________
  Thank you! Enjoy
 ____________________________________________________________________________________________________________________________________________________________________
 
- ViewIT Website. Develop by Chan Wai Pong James 180609303
+ ViewIT Website. Develop by James Chan
 ____________________________________________________________________________________________________________________________________________________________________
 
 

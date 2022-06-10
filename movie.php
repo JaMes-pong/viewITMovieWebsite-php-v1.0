@@ -1,8 +1,7 @@
 <html>
 <head>
 <!--
-   ViewIT Website
-   Author: Chan Wai Pong James		
+   ViewIT Website		
    Date:   2019 - 11 - 21
    
    Filename: movie.php

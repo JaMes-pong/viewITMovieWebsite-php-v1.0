@@ -4,8 +4,7 @@
 <html>
 <head>
 <!--
-   ViewIT Website
-   Author: Chan Wai Pong James		
+   ViewIT Website	
    Date:   2019 - 11 - 18
    
    Filename: index.html
