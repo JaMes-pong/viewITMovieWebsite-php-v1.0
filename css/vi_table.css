@@ -1,0 +1,290 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+/*
+   ViewIT Website
+   
+   Filename: vi_table.css
+
+   Author:  Chan Wai Pong James 
+   Date:    2019 - 11 - 22
+   
+   reference by https://codepen.io/heypablete/pen/qdIsm 
+   
+   Author: @PableraShow 
+   
+   Edit by:Chan Wai Pong James 
+*/
+
+
+body {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+  color:#A7A1AE;
+  background-color:#E9D086;
+}
+
+h1 {
+  font-size:3em; 
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: #3D5CBF;
+}
+
+h2 {
+  font-size:1em; 
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  line-height:1em;
+  padding-bottom: 2em;
+  color: #FB667A;
+}
+
+h2 a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FB667A;
+  text-decoration: none;
+}
+
+.center {
+  font: normal 18px/22px "Varela Round", sans-serif;
+  color: Black;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.search {
+  font: normal 18px/22px "Varela Round", sans-serif;
+  color: Black;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.search input {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+  font: normal 16px/normal Verdana, Geneva, sans-serif;
+  color: rgba(49,50,51,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+}
+
+.search a {
+	color: #696965;
+}
+
+.imgs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.rate {
+  font: normal 18px/22px "Varela Round", sans-serif;
+  color: #8C8C8A;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.blue { color: #185875; }
+.yellow { color: #FFF842; }
+
+.container th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  color: #F4F7AB;
+}
+
+.container th h3 {
+	  font-weight: bold;
+	  font-size: 2em;
+  text-align: left;
+  color: #3D5CBF;
+}
+
+.container td {
+	  font-weight: normal;
+	  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
+	        box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.container {
+	  text-align: left;
+	  overflow: hidden;
+	  width: 80%;
+	  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+}
+
+.container td, .container th {
+	  padding-bottom: 2%;
+	  padding-top: 2%;
+  padding-left:2%;  
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+	  background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+	  background-color: #2C3446;
+}
+
+.container th {
+	  background-color: #1F2739;
+}
+
+.container td:first-child { color: #FB667A; }
+
+.container tr:hover {
+   background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+	   -moz-box-shadow: 0 6px 6px -6px #0E1119;
+	        box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.container td:hover {
+  background-color: white;
+  color: #403E10;
+  font-weight: bold;
+  
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+	  transition-duration: 0.4s;
+	  transition-property: all;
+  transition-timing-function: line;
+}
+
+a:link {
+  color: #696965;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #696965;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+/*button*/
+.sbutton {
+	box-shadow: inset 0px 0px 15px 3px #23395e;
+	background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color: #2e466e;
+	border-radius: 17px;
+	border: 1px solid #1f2f47;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+	padding: 6px 13px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #263666;
+	margin-left: 10px;
+	text-align: center;
+}
+.sbutton:hover {
+	background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color: yellow;
+	color: yellow;
+}
+.sbutton:active {
+	position: relative;
+	top: 1px;
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 30%;
+}    
+.select select {
+    font-family: 'Arial';
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 16px;
+    outline: 0;
+    border: 0px solid #bb1f1f;
+    border-radius: 4px;
+    background: #949094;
+    color: #1d5fb3;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+} 
+.select select::-ms-expand {
+    display: none;
+}
+.select select:hover, .select select:focus {
+    color: #1747c5;
+    background: #f1f1f1;
+}
+
+.select select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/*footer*/
+footer {
+   background-color: white;
+   clear: left;
+   margin-top: 25px;
+   text-align: right;
+}
+
+footer, footer span a {
+   padding: 15px;
+   color: #2F4858;
+}
+
+footer span a:hover {
+   color: rgb(0, 167, 167);
+   text-decoration: none;
+}
+
+@media (max-width: 800px) {
+.container td:nth-child(4),
+.container th:nth-child(4) { display: none; }
+}

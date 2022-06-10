@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+/*
+   ViewIT Website
+   
+   Filename: vi_layout.css
+
+   Author:  Chan Wai Pong James 
+   Date:    2019 - 11 - 20
+
+*/
+
+/* =============================================
+	Base styles used by All Screens
+   =============================================
+*/
+
+
+/* html setting */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: normal 18px/22px "Varela Round", sans-serif;
+  background-color: #87ceeb;
+  color: #2e2e2e;
+  
+}
+h1, h2 {
+  font-family: Verdana, sans-serif;
+  font-weight: 600;
+}
+h1 {
+  font-size: 36px;
+  line-height: 46px;
+  color: #403c91;
+}
+h2 {
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: -20px;
+  color: #FFE391;
+}
+p {
+  margin: 20px 0;
+}
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+.news {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	color: black;
+}
+
+.abouth {
+	text-align:center;
+	padding: 10px;
+}
+	
+.about {
+	text-align:left;
+	font-family: Trebuchet MS, sans-serif;
+	color: #003366;
+	font-size: 20px
+}
+
+/*newsletter form*/
+.box{
+  width: 300px;
+  transform: translate(0%);
+  text-align: center;
+}
+
+.box input[type = "text"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: left;
+  border: 2px solid gray;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: black;
+  transition: 0.25s;
+}
+
+.box input[type = "text"]:focus{
+  width: 400px;
+  border-color: #2ecc71;
+}
+
+.box input[type = "reset"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid green;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "reset"]:hover{
+  background: green;
+}
+
+/*message*/
+.boxmsg{
+  width: 300px;
+  transform: translate(0%);
+  border: 2px solid #235789;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+p#update {
+	  font-family: Andale Mono, monospace;
+}
+
+/*image at homepage*/
+.container {
+  position: center;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*animation in index page*/
+.flow {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  -webkit-animation-name: indexpage; 
+  -webkit-animation-duration: 5s; 
+  -webkit-animation-iteration-count: infinite;
+  animation-name: indexpage;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes indexpage {
+  0%   {left:0px; top:0px;}
+  25%  {left:900px; top:0px;}
+  50%  {left:0px; top:0px;}
+}
+
+/* layout */
+.fixed-nav-bar {
+  box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.6);
+}
+
+.content {
+  position: relative;
+  background: #464646 url(ima.jpg) no-repeat center center fixed;
+  background-size: cover;
+ }
+
+.description {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 100px;
+  min-height: 250px;
+  text-align: center;
+}
+
+.article {
+  text-align:center;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.article {
+  color: #747474;
+}
+
+.article h1 {
+  color: #384e56;
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+
+.article h3 {
+  color: white;
+  margin-top: 0px;
+}
+
+.article h2 a:link, .article h2 a:visited  {
+  color: #464646;
+  transition: color 0.1s ease;
+}
+
+.article h2 a:hover {
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+aside { 
+	float: left;
+}
+
+/* SPECIAL */
+.summary  {
+  color: #F2F3A2;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.button, .button:visited, .button-dark {
+  display: inline-block;
+  max-width: 200px;
+  margin: 50px 10px 30px 10px;
+  padding: 10px;
+  font-family: "Signika", sans-serif;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  text-transform: capitalize;
+  text-align: center;
+  transition: all 0.1s ease;
+}
+.button-dark, .button-dark:visited {
+  margin: 20px 10px 30px 0;
+  color: #464646;
+  border-color: #464646;
+
+}
+.button:hover, .button-dark:hover {
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: rgba(233, 208, 134, 0.5);
+}
+.button-dark:hover {
+  color: #ffffff;
+  background-color: rgba(70, 70, 70, 0.9);
+}
+
+/*footer setting*/
+footer {
+   background-color: #BABCBF;
+   clear: left;
+   margin-top: 25px;
+   text-align: right;
+}
+
+footer, footer span a {
+   padding: 15px;
+   color: #2F4858;
+}
+
+footer span a:hover {
+   color: rgb(0, 167, 167);
+   text-decoration: none;
+}
+
+.dfooter {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ADA8EF;
+   clear: left;
+   text-align: right;
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*
+   ViewIT Website
+   
+   Filename: vi_footer.css
+
+   Author:  Chan Wai Pong James 
+   Date:    2019 - 11 - 20
+
+*/
+
+
+/*footer setting*/
+footer {
+   background-color: #BABCBF;
+   clear: left;
+   margin-top: 25px;
+   text-align: right;
+}
+
+footer, footer span a {
+   padding: 15px;
+   color: #2F4858;
+}
+
+footer span a:hover {
+   color: rgb(0, 167, 167);
+   text-decoration: none;
+}
+
+.dfooter {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   clear: left;
+   text-align: right;
+}
